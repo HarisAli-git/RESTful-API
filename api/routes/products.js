@@ -9,8 +9,13 @@ app.get('/', (req, res, next) => {
 });
 
 app.post('/', (req, res, next) => {
+    const p = {
+        name: req.body.name,
+        price: req.body.price
+    }
     res.status(200).json({
         message: "POST request !",
+        proCreate: p
     });
 });
 

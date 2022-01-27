@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/HarisAli-git/RESTful-API#readme",
   "dependencies": {
+    "body-parser": "^1.19.1",
     "express": "^4.17.2",
+    "mongoose": "^6.1.8",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.15"
   }
